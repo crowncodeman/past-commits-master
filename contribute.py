@@ -7,7 +7,7 @@ from random import randint
 from subprocess import Popen
 import sys
 
-NUM = 340
+NUM = 120
 
 def main(def_args=sys.argv[1:]):
     args = arguments(def_args)
