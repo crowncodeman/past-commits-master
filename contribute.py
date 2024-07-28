@@ -7,11 +7,11 @@ from random import randint
 from subprocess import Popen
 import sys
 
-NUM = 330
+NUM = 120
 
 def main(def_args=sys.argv[1:]):
     args = arguments(def_args)
-    curr_date = datetime(2024,12,5)
+    curr_date = datetime(2024,11,25)
     directory = 'repository-' + curr_date.strftime('%Y-%m-%d-%H-%M-%S')
     repository = args.repository
     user_name = args.user_name
